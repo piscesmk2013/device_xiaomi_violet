@@ -89,4 +89,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>qccsyshal</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.chgctrl</name>
+        <version>1.0</version>
+        <interface>
+            <name>IChargeControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </compatibility-matrix>

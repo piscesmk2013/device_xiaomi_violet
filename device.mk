@@ -141,6 +141,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-sp/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so
 
+# Charge control
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.chgctrl@1.0-service.xiaomi_sm6150
+
 # CNE
 PRODUCT_PACKAGES += \
     cneapiclient \
